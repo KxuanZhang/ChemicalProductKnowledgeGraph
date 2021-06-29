@@ -10,13 +10,13 @@
 
 # 效果
 
-![](E:\ChemicalProductKnowledgeGraph\picture\1.jpg)
+![](./picture/1.jpg)
 
-![](E:\ChemicalProductKnowledgeGraph\picture\2.jpg)
+![](./picture/2.jpg)
 
-![](E:\ChemicalProductKnowledgeGraph\picture\查询2.png)
+![](./picture/查询2.png)
 
-![](E:\ChemicalProductKnowledgeGraph\picture\查询1.png)
+![](./picture/查询1.png)
 
 
 
