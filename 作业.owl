@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#HPLC缓冲液 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#HPLC缓冲液">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#HPLC色谱柱和配件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#HPLC色谱柱和配件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#LPLC介质和配件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#LPLC介质和配件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#Millex针头式过滤器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#Millex针头式过滤器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#pH试纸条、pH试纸、读取器和配件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#pH试纸条、pH试纸、读取器和配件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#光度法及快速化学品检测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#光度法及快速化学品检测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#化学产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析化学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂瓶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂瓶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析进样针 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析进样针">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#化学产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#化学产品"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#卡尔费休滴定标准品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#卡尔费休滴定标准品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#卡尔费休试剂和标准品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#卡尔费休试剂和标准品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#吹扫捕集 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#吹扫捕集">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相支撑液-液萃取柱、树脂和配件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相支撑液-液萃取柱、树脂和配件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相萃取和QuEChERS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相萃取和QuEChERS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#实验室过滤支架 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#实验室过滤支架">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#指示剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#指示剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#比色法及滴定法试剂盒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#比色法及滴定法试剂盒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#气相色谱柱、配件和吸附剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#气相色谱柱、配件和吸附剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#溶剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#溶剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#滴定试剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#滴定试剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#空气监测装置和试管 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#空气监测装置和试管">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#色谱和光谱试剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#色谱和光谱试剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#苛性碱和碱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#苛性碱和碱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#薄层色谱（TLC） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#薄层色谱（TLC）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析色谱"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#酸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#酸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#金属 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#金属">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#Spectroquant®_光度法仪器、试剂盒与配件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#Spectroquant®_光度法仪器、试剂盒与配件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析试剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相微萃取(SPME) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#固相微萃取(SPME)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15022/ontologies/2021/5/untitled-ontology-5#分析样品制备"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
